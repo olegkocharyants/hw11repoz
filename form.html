@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Мои биографические данные">
+        <meta name="author" content="Oleg Kochariants">
+    </head>
+    <body>
+        <form action="" method="post" autocomplete="off" enctype="multipart/from-data">
+            <input type="file" id="field-birth" name="birth">
+           <label for="field-name">Введите имя</label>
+           <input type="text" id="field-name" name="name" 
+           placeholder="Имя"><br><br>
+           <label for="field-email">Введите email</label>
+           <input type="text" id="field-email" name="name" 
+           placeholder="email"><br><br>
+           <label for="field-phone">Введите телефон</label>
+           <input type="phone" id="field-phone" name="phone" 
+           placeholder="номер телефона"><br><br>
+           <label for="field-birth">Дата рождения</label>
+           <input type="date" id="field-birth" name="birth" disabled>
+           <br><br>
+ 
+           
+           <input type="checkbox" checked>
+           <br><br>
+           BMW<input type="radio" name="selectCar" checked>
+           Mersedes<input type="radio" name="selectCar">
+           <br><br>
+           <textarea name="name" placeholder="Message" rows="8" cols="80"></textarea>
+           <br><br>
+           <textarea name="name" placeholder="Message" width="300px" height="150px"></textarea>
+           <br><br>
+           <select name="color">
+            <option value="red">Красный</option>
+            <option value="blue" selected>Синий</option>
+            <option value="green" disabled>Зелёный</option>
+            <option value="white">Белый</option>
+           </select>
+           <br><br>
+           <select name="color[]" multiple>
+            <option value="red">Красный</option>
+            <option value="blue" selected>Синий</option>
+            <option value="green" disabled>Зелёный</option>
+            <option value="white">Белый</option>
+           </select>           
+           <br><br>
+           <button type="submit" name="button">Отправить</button>
+           <input type="reset" name="button" value="Очистить">
+
+        </form>
+        
+    </body>
+</html>

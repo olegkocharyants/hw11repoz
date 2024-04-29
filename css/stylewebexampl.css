@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {text-decoration: none}
+
+body {
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 16px;
+    background: white;
+    color: #000;
+}
+
+header {
+    width: 100%;
+    background: #F8F8F8;
+    box-shadow: 2px 4px 6px rgba(194, 192, 192, 0.25);
+    padding: 10px 0;
+    float: left;
+}
+header .all-header {
+    width: 60%;
+    margin: 0 20%;
+}
+
+header .all-header .lang {
+    text-align: right;
+    width: 100%
+}
+
+header .all-header .lang a {
+    font-size: 18px;
+    color: #C4C4C4;
+    font-weight: 800;
+}
+
+header .all-header .lang a.active, 
+header .all-header .lang a:hover {
+    color: #000;
+    border-bottom: 2px solid #000;
+    margin-left: 5px;
+}

@@ -1,0 +1,23 @@
+#block :last-child {
+    color: red
+ }
+
+ .block p {color: red}
+
+ .block p:only-of-type {color: blue}
+a {color: red}
+ a:link {text-decoration: none}
+ /*a:visited { color: red}*/
+a:active {text-decoration: line-through;}
+
+a:hover { color: #333; font-weight: bold}
+/*
+.block-txt span {color: blue}
+.block-txt:hover span {color: red}
+.block-txt span:active  {color: green}
+*/
+
+p:not(:empty) {
+    background-color: blueviolet;
+    /*height:20px;*/
+}
